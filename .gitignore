@@ -1,17 +1,29 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.db
+*.sqlite3
+*.log
 venv/
 .env
+
+# macOS
+.DS_Store
 
 # VS Code
 .vscode/
 
-# macOS system files
-.DS_Store
-
 # Node
 node_modules/
+build/
 dist/
+
+# Docker
+*.pid
+
+# Others
+.idea/
+*.bak
+*.swp
