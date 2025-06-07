@@ -1,0 +1,19 @@
+# Ignore Python venv and cache
+venv/
+__pycache__/
+*.py[cod]
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore frontend dependencies
+frontend/node_modules/
+
+# Ignore uploaded files
+uploaded_resumes/
+
+# Ignore system files
+.DS_Store
+
+# Ignore environment files
+.env
