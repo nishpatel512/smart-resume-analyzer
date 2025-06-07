@@ -1,6 +1,6 @@
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from app.database import get_connection
+from backend.database import get_connection
 from datetime import datetime
 import os
 from pyresparser import ResumeParser
